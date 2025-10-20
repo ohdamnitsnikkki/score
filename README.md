@@ -1,0 +1,2 @@
+# score
+medelvärdet i poäng
