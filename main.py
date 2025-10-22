@@ -13,6 +13,21 @@ def get_score(prompt):
 
 # Ta in tre poäng från användaren
 
-tal1 = get_number("Ange första talet: ")
-tal2 = get_number("Ange andra talet: ")
-tal3 = get_number("Ange tredje talet: ")
+tal1 = get_score("Ange första talet: ")
+tal2 = get_score("Ange andra talet: ")
+tal3 = get_score("Ange tredje talet: ")
+
+# Räkna ut medelvärde 
+
+medelvärde = (tal1 + tal2 + tal3) / 3
+
+# Skriv ut resultat med max två decimaler
+
+print(f"\nDitt genomsnittliga betyg är: {medelvärde:.2f}")
+
+# Gratulationsmeddelande om genomsnittet är 93 eller högre
+
+if medelvärde > 93:
+    print("Fantastiskt resultat bra jobbat!")
+else:
+    print("Tack, beräkningen är klar")
