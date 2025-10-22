@@ -12,3 +12,7 @@ def get_score(prompt):
             print("Du måste skriva i siffror ej bokstäver")
 
 # Ta in tre poäng från användaren
+
+tal1 = get_number("Ange första talet: ")
+tal2 = get_number("Ange andra talet: ")
+tal3 = get_number("Ange tredje talet: ")
